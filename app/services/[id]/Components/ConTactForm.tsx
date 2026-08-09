@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Service } from "../types/services"; // Import your type
+import { Service } from "@/app/types/services"; // Import your type
 
 export default function ContactForm({ service }: { service?: Service }) {
   return (
