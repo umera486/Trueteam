@@ -3,19 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
-import {
-  Code2,
-  Smartphone,
-  BarChart3,
-  Cpu,
-  Layers,
-  Zap,
-  TerminalSquare,
-  Search,
-  Server,
-  Megaphone,
-  LifeBuoy,
-} from "lucide-react";
+import { Code as Code2, Smartphone, ChartBar as BarChart3, Cpu, Layers, Zap, SquareTerminal as TerminalSquare, Search, Server, Megaphone, LifeBuoy } from "lucide-react";
 
 // Types directly for portability, or import from your types file
 interface Service {
