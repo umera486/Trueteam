@@ -84,5 +84,75 @@ export const SERVICES_DATA: Service[] = [
       { label: "Funnel", val: "Optimized" },
       { label: "ROI", val: "Measured" }
     ]
+  },
+  {
+    id: "developer-services",
+    title: "Developer Services",
+    description: "Elite engineering teams embedded directly into your product velocity.",
+    longDesc: "We deploy senior full-stack engineers directly into your workflow — bridging Next.js, Node, and edge runtimes with type-safe architecture. From codebase audits to greenfield product launches, our developers ship production-grade systems with zero hand-holding.",
+    icon: "⟦⟧",
+    bgImage: "https://images.unsplash.com/photo-1542831371-29b0f74f9713",
+    stats: [
+      { label: "Stack", val: "Full-Stack" },
+      { label: "Seniority", val: "10+ yrs" },
+      { label: "Onboarding", val: "48 hrs" },
+      { label: "Delivery", val: "Continuous" }
+    ]
+  },
+  {
+    id: "seo-engineering",
+    title: "SEO Engineering",
+    description: "Technical SEO that ranks pages through server-side precision and schema logic.",
+    longDesc: "We engineer search dominance through server-side rendering, structured data schemas, Core Web Vitals optimization, and semantic HTML architecture. Every page is a tactical asset designed to capture organic intent and convert it into pipeline.",
+    icon: "⌖",
+    bgImage: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07",
+    stats: [
+      { label: "Vitals", val: "100/100" },
+      { label: "Schema", val: "JSON-LD" },
+      { label: "Crawl", val: "Optimized" },
+      { label: "Growth", val: "+312%" }
+    ]
+  },
+  {
+    id: "saas-solutions",
+    title: "SaaS Solutions",
+    description: "Multi-tenant SaaS platforms built for scale, billing, and retention.",
+    longDesc: "We architect subscription-ready SaaS products with multi-tenant isolation, Stripe billing flows, role-based access control, and real-time dashboards. From MVP to Series A, we build the infrastructure that compound revenue requires.",
+    icon: "◇",
+    bgImage: "https://images.unsplash.com/photo-1551288049-bbda4833effb",
+    stats: [
+      { label: "Tenancy", val: "Multi-Tenant" },
+      { label: "Billing", val: "Stripe-Ready" },
+      { label: "Auth", val: "RBAC" },
+      { label: "Scale", val: "Edge" }
+    ]
+  },
+  {
+    id: "digital-marketing",
+    title: "Digital Marketing",
+    description: "Conversion-engineered campaigns that compound pipeline through every channel.",
+    longDesc: "We deploy data-driven marketing systems across paid, organic, and lifecycle channels. With full-funnel attribution and creative testing engines, we turn ad spend into measurable revenue — not vanity metrics. Every campaign is a calculated investment.",
+    icon: "◉",
+    bgImage: "https://images.unsplash.com/photo-1460925895917-afdab8276cd6",
+    stats: [
+      { label: "ROAS", val: "4.8x" },
+      { label: "Channels", val: "Omnichannel" },
+      { label: "Attribution", val: "Full-Funnel" },
+      { label: "Testing", val: "Continuous" }
+    ]
+  },
+  {
+    id: "technical-support",
+    title: "Technical Support",
+    description: "24/7 infrastructure support with sub-15-minute response SLAs.",
+    longDesc: "We provide enterprise-grade technical support for production systems — monitoring, incident response, performance triage, and proactive optimization. Our support engineers don't just close tickets; they eliminate the root causes that create them.",
+    icon: "▲",
+    bgImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    stats: [
+      { label: "Response", val: "<15 min" },
+      { label: "Uptime", val: "99.99%" },
+      { label: "Monitoring", val: "24/7" },
+      { label: "Coverage", val: "Global" }
+    ]
   }
 ];

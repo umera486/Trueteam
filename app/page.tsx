@@ -14,6 +14,7 @@ import ProcessPricing from "./components/ProcessPricing";
 import UltimateFooter from "./components/UltimateFooter";
 import ServicesGrid from "./components/ServicesGrid";
 import AIArchitecture from "./components/AIArchitecture";
+import CapabilityMatrix from "./components/CapabilityMatrix";
 
 export default function Page() {
   const [intro, setIntro] = useState(false);
@@ -74,6 +75,7 @@ export default function Page() {
         <Navbar />
         <Hero />
         <ServicesGrid />
+        <CapabilityMatrix />
         <AIArchitecture />
         <Linear />
         <VideoFeatureSection />

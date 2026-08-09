@@ -3,13 +3,18 @@
 import React from "react";
 import Link from "next/link";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
-import { 
-  Code2, 
-  Smartphone, 
-  BarChart3, 
-  Cpu, 
-  Layers, 
-  Zap 
+import {
+  Code2,
+  Smartphone,
+  BarChart3,
+  Cpu,
+  Layers,
+  Zap,
+  TerminalSquare,
+  Search,
+  Server,
+  Megaphone,
+  LifeBuoy,
 } from "lucide-react";
 
 // Types directly for portability, or import from your types file
@@ -63,6 +68,41 @@ const SERVICES: Service[] = [
     description: "Full-funnel analytics to track every click, scroll, and dollar in real-time.",
     icon: <BarChart3 />,
     accent: "from-indigo-500"
+  },
+  {
+    id: "developer-services",
+    title: "Developer Services",
+    description: "Elite engineering teams embedded directly into your product velocity.",
+    icon: <TerminalSquare />,
+    accent: "from-blue-500"
+  },
+  {
+    id: "seo-engineering",
+    title: "SEO Engineering",
+    description: "Technical SEO that ranks pages through server-side precision and schema logic.",
+    icon: <Search />,
+    accent: "from-yellow-500"
+  },
+  {
+    id: "saas-solutions",
+    title: "SaaS Solutions",
+    description: "Multi-tenant SaaS platforms built for scale, billing, and retention.",
+    icon: <Server />,
+    accent: "from-blue-600"
+  },
+  {
+    id: "digital-marketing",
+    title: "Digital Marketing",
+    description: "Conversion-engineered campaigns that compound pipeline through every channel.",
+    icon: <Megaphone />,
+    accent: "from-yellow-400"
+  },
+  {
+    id: "technical-support",
+    title: "Technical Support",
+    description: "24/7 infrastructure support with sub-15-minute response SLAs.",
+    icon: <LifeBuoy />,
+    accent: "from-cyan-500"
   }
 ];
 
