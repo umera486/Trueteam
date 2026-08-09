@@ -11,10 +11,14 @@ import FloatingProjectGrid from "./components/FloatingProjectGrid";
 import UIOptimizer from "./components/UIOptimizer";
 import GravityPortal from "./components/GravityPortal";
 import ProcessPricing from "./components/ProcessPricing";
-import UltimateFooter from "./components/UltimateFooter";
 import ServicesGrid from "./components/ServicesGrid";
 import AIArchitecture from "./components/AIArchitecture";
 import CapabilityMatrix from "./components/CapabilityMatrix";
+import InfiniteMarquee from "./components/InfiniteMarquee";
+import BentoGrid from "./components/BentoGrid";
+import HoverRevealCards from "./components/HoverRevealCards";
+import ParallaxAtmosphere from "./components/ParallaxAtmosphere";
+import ExtremeFooter from "./components/ExtremeFooter";
 
 export default function Page() {
   const [intro, setIntro] = useState(false);
@@ -73,10 +77,14 @@ export default function Page() {
         }}
       >
         <Navbar />
+        <ParallaxAtmosphere />
         <Hero />
+        <InfiniteMarquee />
         <ServicesGrid />
+        <BentoGrid />
         <CapabilityMatrix />
         <AIArchitecture />
+        <HoverRevealCards />
         <Linear />
         <VideoFeatureSection />
         <FloatingProjectGrid />
@@ -84,7 +92,7 @@ export default function Page() {
         <GravityPortal />
         <ProcessPricing />
         <Linear/>
-        <UltimateFooter />
+        <ExtremeFooter />
         
       </div>
       
